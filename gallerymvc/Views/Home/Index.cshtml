@@ -1,0 +1,55 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<script>
+    document.getElementById('links').onclick = function (event) {
+        event = event || window.event;
+        var target = event.target || event.srcElement,
+            link = target.src ? target.parentNode : target,
+            options = { index: link, event: event },
+            links = this.getElementsByTagName('a');
+        blueimp.Gallery(links, options);
+    };
+</script>
+
+<div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+
+
+<!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+
+
+
+<div id="links">
+    <a href="~/img/samp_1_L.jpg"  title="Pic First" data-gallery>
+        <img src="~/img/samp_1.jpg"  alt="Pic First">
+    </a>
+    <a href="~/img/samp_2_L.jpg" title="Pic Second" data-gallery>
+        <img src="~/img/samp_2.jpg" alt="Pic Second">
+    </a>
+    <a href="~/img/IMGP0542.JPG"  title="Pic Third" data-gallery>
+        <img src="~/img/IMGP0542_S.png" alt="Pic Third" />
+    </a>
+    <a href="~/img/IMGP4186.JPG" title="Pic Forth" data-gallery>
+        <img src="~/img/IMGP4186_S.png" alt="Pic Forth" />
+    </a>
+    <a href="~/img/IMGP8216.JPG" title="Pic Fifth" data-gallery>
+        <img src="~/img/IMGP8216_S.png" alt="Pic Fifth" />
+    </a>
+</div>
