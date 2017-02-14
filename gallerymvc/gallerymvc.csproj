@@ -142,8 +142,8 @@
     <Content Include="img\error.svg" />
     <Content Include="img\IMGP0542_S.png" />
     <Content Include="img\IMGP0542.JPG" />
-    <Content Include="img\IMGP4186_S.png" />
     <Content Include="img\IMGP4186.JPG" />
+    <Content Include="img\IMGP4186_S.png" />
     <Content Include="img\IMGP8216_S.png" />
     <Content Include="img\IMGP8216.JPG" />
     <Content Include="img\loading.gif" />
@@ -197,9 +197,9 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\GalleryList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
