@@ -140,8 +140,14 @@
     <Content Include="Content\Site.css" />
     <Content Include="img\error.png" />
     <Content Include="img\error.svg" />
+    <Content Include="img\IMGP0045_V.png" />
+    <Content Include="img\IMGP0045_S.png" />
+    <Content Include="img\IMGP0045.JPG" />
     <Content Include="img\IMGP0542_S.png" />
     <Content Include="img\IMGP0542.JPG" />
+    <Content Include="img\IMGP2899_S.png" />
+    <Content Include="img\IMGP2899.JPG" />
+    <Content Include="img\IMGP4186_V.png" />
     <Content Include="img\IMGP4186.JPG" />
     <Content Include="img\IMGP4186_S.png" />
     <Content Include="img\IMGP8216_S.png" />
