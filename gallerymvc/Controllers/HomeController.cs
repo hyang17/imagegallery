@@ -31,5 +31,10 @@ namespace gallerymvc.Controllers
         {
             return View();
         }
+
+        public ActionResult HappyBirthday()
+        {
+            return View();
+        }
     }
 }
